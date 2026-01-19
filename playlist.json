@@ -1,0 +1,72 @@
+[
+  {
+    "Autore": "Mozart",
+    "Genere": "Classica",
+    "Titolo": "Nona sinfonia",
+    "Durata": "28:00",
+    "DataPubblicazione": "1788"
+  },
+  {
+    "Autore": "Beethoven",
+    "Genere": "Classica",
+    "Titolo": "Sinfonia n. 5",
+    "Durata": "33:00",
+    "DataPubblicazione": "1808"
+  },
+  {
+    "Autore": "Bach",
+    "Genere": "Classica",
+    "Titolo": "Il clavicembalo ben temperato",
+    "Durata": "145:00",
+    "DataPubblicazione": "1722"
+  },
+  {
+    "Autore": "Vivaldi",
+    "Genere": "Classica",
+    "Titolo": "Le quattro stagioni",
+    "Durata": "42:00",
+    "DataPubblicazione": "1725"
+  },
+  {
+    "Autore": "Chopin",
+    "Genere": "Classica",
+    "Titolo": "Notturno Op. 9 No. 2",
+    "Durata": "4:30",
+    "DataPubblicazione": "1832"
+  },
+  {
+    "Autore": "Tchaikovsky",
+    "Genere": "Classica",
+    "Titolo": "Il lago dei cigni",
+    "Durata": "150:00",
+    "DataPubblicazione": "1876"
+  },
+  {
+    "Autore": "Verdi",
+    "Genere": "Opera",
+    "Titolo": "La traviata",
+    "Durata": "130:00",
+    "DataPubblicazione": "1853"
+  },
+  {
+    "Autore": "Debussy",
+    "Genere": "Classica",
+    "Titolo": "Clair de lune",
+    "Durata": "5:00",
+    "DataPubblicazione": "1905"
+  },
+  {
+    "Autore": "Puccini",
+    "Genere": "Opera",
+    "Titolo": "La bohème",
+    "Durata": "115:00",
+    "DataPubblicazione": "1896"
+  },
+  {
+    "Autore": "Brahms",
+    "Genere": "Classica",
+    "Titolo": "Sinfonia n. 1",
+    "Durata": "45:00",
+    "DataPubblicazione": "1876"
+  }
+]
