@@ -1,11 +1,16 @@
 package org.example;
-
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonParser;
 import java.io.FileReader;
 import java.io.IOException;
 public class Lettore implements Runnable{
     @Override
     public void run() {
         leggi();
+        System.out.println("\nLettura con GSON");
+        leggiConGson();
     }
     public void leggi(){
         FileReader fr;
@@ -22,6 +27,23 @@ public class Lettore implements Runnable{
             fr.close();
         } catch (IOException ex) {
             System.err.println("Errore in lettura!");
+        }
+    }
+
+    public void leggiConGson() {
+        try (FileReader fr = new FileReader("playlist.json")) {
+            // Creo un'istanza di Gson con formattazione elegante
+            Gson gson = new GsonBuilder().setPrettyPrinting().create();
+
+            // Leggo il JSON come JsonElement
+            JsonElement jsonElement = JsonParser.parseReader(fr);
+
+            // Stampo il JSON formattato
+            String jsonFormattato = gson.toJson(jsonElement);
+            System.out.println(jsonFormattato);
+
+        } catch (IOException ex) {
+            System.err.println("Errore in lettura con GSON!");
         }
     }
 }
